@@ -1,0 +1,79 @@
+/* src/components/Experience/Experience.css */
+
+.experience-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+.experience-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: box-shadow 0.3s;
+}
+
+.experience-card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.logo-container {
+  flex-shrink: 0;
+}
+
+.company-logo {
+  width: 80px;  /* Adjust size as necessary */
+  height: 80px;
+  object-fit: contain;  /* Maintains aspect ratio */
+  border-radius: 8px;
+}
+
+.experience-details {
+  flex-grow: 1;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #777;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .experience-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .company-logo {
+    width: 60px;
+    height: 60px;
+  }
+}

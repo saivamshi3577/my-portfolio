@@ -1,0 +1,24 @@
+/* src/components/Projects/Projects.css */
+
+.projects {
+  padding: 50px 20px;
+  background-color: #f7f8fa;
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.projects p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.projects-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
