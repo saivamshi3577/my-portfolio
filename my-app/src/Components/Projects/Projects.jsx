@@ -21,7 +21,7 @@ const projectsData = [
       'Git',
     ],
     image: project1Image,
-    link: '#',
+    link: 'https://www.itmonkssolutions.com/',
   },
   {
     title: 'Downey Bail Bonds Website',
