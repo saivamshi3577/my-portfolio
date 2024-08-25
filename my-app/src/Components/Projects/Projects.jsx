@@ -1,14 +1,12 @@
-// src/components/Projects/Projects.js
 
 import React from 'react';
 import './Projects.css';
 import Project from './Project';
 
-// Import project images
 import project1Image from '../../images/project1.png';
 import project2Image from '../../images/project2.png';
 import project3Image from '../../images/project3.png';
-
+import project4Image from '../../images/project4.png';
 const projectsData = [
   {
     title: 'IT Monks Website',
@@ -58,19 +56,18 @@ const projectsData = [
     link: '#',
   },
   {
-    title: 'IMS Website',
-    description: `The IMS Website is a comprehensive solution for managing inventory and sales operations. Developed using the MERN stack, it integrates modern technologies to deliver seamless inventory management, order processing, and real-time data insights. The platform's user-friendly interface ensures efficient business operations.`,
+    title: 'CSPM Executive Dashboard',
+    description: `CSPM Executive Dashboard is a dynamic React.js project using Redux and Chart.js. It allows users to add and manage multiple chart types interactively through an 'Add Widget' button, providing real-time data visualization and customization.`,
     technologies: [
       'React',
-      'Node.js',
-      'Express.js',
-      'MongoDB',
+      'Chart.js',
+      'Redux',
       'Bootstrap',
       'Javascript',
       'Git',
     ],
-    image: project3Image,
-    link: '#',
+    image: project4Image,
+    link: 'https://vamshi-acckunox-cf72jcisa-saivamshis-projects-dbc4fde4.vercel.app/',
   },
 ];
 
