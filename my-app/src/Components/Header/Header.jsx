@@ -26,7 +26,7 @@ const Header = () => {
               <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-512.png" alt="Instagram" />
             </a>
             <a href="https://www.linkedin.com/in/sai-vamshi-chary-45495a272/" target="_blank" rel="noopener noreferrer">
-              <img src="https://static-00.iconduck.com/assets.00/linkedin-icon-2048x2048-3mmtnow6.png" alt="LinkedIn" />
+              <img src="https://www.svgrepo.com/show/157006/linkedin.svg" alt="LinkedIn" />
             </a>
             <a href="https://github.com/saivamshi3577" >
               <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" />
